@@ -1,0 +1,239 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align:center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    font-size: 5.625rem;
+    margin-top:0;
+    font-family: 'Sacramento', cursive;
+    color:#66BFBF ;
+    line-height: 2;
+    
+}
+
+h2{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-seri;
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family: 'Montserrat', sans-seri;
+
+}
+
+
+hr{
+    border: dotted #11cdd4 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+
+
+.top-container{
+    background-color:#E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    background-color:#E4F9F5;
+}
+
+
+.bottom-container{
+     background-color: #66BFBF;
+     padding: 50px 0 20px;
+}
+a{
+     color: #11999e;
+     font-family:'Montsrerrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #E4F9F5;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}    
+
+.down-cloud{
+    position:absolute;
+    left: 300px;
+    /*bottom: 300px;*/
+}
+img.profile{
+    max-height: 300px;
+    max-width: 750px;
+
+}
+
+img.skill{
+    max-height:200px;
+    float: left;
+    margin-right: 30px;
+}
+
+img.skill2{
+    max-height: 200px;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto ;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill2-row{
+    width: 50%;
+    margin: 100px auto 100px auto ;
+    text-align: left;
+    line-height: 2;
+}
+
+
+.intro{
+     width:60%;
+     margin: auto;
+    font-size: 28px;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px ;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+}
+
+.w {
+    background-image: url("images/tom1.png");
+  }
+  
+  .a {
+    background-image: url("images/tom2.png");
+  }
+  
+  .s {
+    background-image: url("images/tom3.png");
+  }
+  
+  .d {
+    background-image: url("images/tom4.png");
+  }
+  
+  .j {
+    background-image: url("images/snare.png");
+  }
+  
+  .k {
+    background-image: url("images/crash.png");
+  }
+  
+  .l {
+    background-image: url("images/kick.png");
+  }
+  
+  .set {
+    margin: 10% auto;
+  }
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .drum {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+  }
+
+  img.html{
+    max-height:200px;
+    float: left;
+    margin-right: 30px;
+  }
+  img.css{
+    max-height:200px;
+    margin-left: 30px;
+  }
+  img.JavaScript{
+    max-height: 200px;
+    float: right;
+    margin-left: 30px;
+  }
+
+  img.Jquery{
+    max-height:200px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 170px;
+  }
+
+  img.Reactjs{
+    max-height: 200px;
+    float: right;
+    margin-left: 30px;
+    margin-right: 260px;
+  }
